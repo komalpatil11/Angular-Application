@@ -1,0 +1,40 @@
+.container {
+    max-width: 300px;
+    margin:135px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,11 @@
+<div class="panel">
+    <div>
+      <input type="text" [(ngModel)]="panelName" placeholder="Panel name">
+      <button (click)="savePanelName()">Save</button>
+    </div>
+    <div *ngFor="let data of dataList">
+      <app-component-y  (dataSaved)= "saveData($event)"></app-component-y>
+    </div>
+    <button (click)="addComponentY()">+</button>
+  </div>
+  

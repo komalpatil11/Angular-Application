@@ -1,0 +1,13 @@
+.center-box {
+    width: 200px;
+    height: 200px;
+    background-color:white;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 185px;
+    margin-top: 89px;
+    flex-direction: column;}

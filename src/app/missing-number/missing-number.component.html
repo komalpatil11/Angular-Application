@@ -1,0 +1,9 @@
+<div class="container">
+    <h2>Find the Missing Number</h2>
+    <label for="indexInput">Enter the index:</label>
+    <input type="number" id="indexInput" [(ngModel)]="inputIndex" placeholder="Enter index">
+    <button (click)="findMissingNumber()">Find Missing Number</button>
+  
+    <p *ngIf="missingNumber !== null">The number at index {{ inputIndex }} is {{ missingNumber }}</p>
+  </div>
+  
